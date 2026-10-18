@@ -1,0 +1,2 @@
+# Ne pas envoyer vendor sur GitHub (à recréer avec composer install).
+vendor/

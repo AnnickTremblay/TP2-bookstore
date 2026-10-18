@@ -1,0 +1,10 @@
+# Active la réécriture d'adresses.
+RewriteEngine On
+
+# Si l'adresse n'est pas un dossier qui existe.
+RewriteCond %{REQUEST_FILENAME} !-d
+# Si l'adresse n'est pas un fichier qui existe.
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Envoie la demande vers index.php et garde les paramètres de l'adresse (?id=3).
+RewriteRule ^(.*)$ index.php [QSA,L]
