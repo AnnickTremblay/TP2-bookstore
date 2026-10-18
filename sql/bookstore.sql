@@ -112,18 +112,6 @@ VALUES ('Retour a Kamouraska', '9782764456785', 'Recit du retour au pays natal.'
 INSERT INTO `bookstore`.`book` (`title`, `isbn`, `description`, `price`, `author_id`)
 VALUES ('Saisons breves', '9782764867896', 'Premier roman de l auteure.', 18.95, 4);
 
-INSERT INTO `bookstore`.`sale` (`quantity`, `sold_date`, `unit_price`, `book_id`, `client_id`)
-VALUES (2, '2026-09-05', 24.95, 1, 1);
-INSERT INTO `bookstore`.`sale` (`quantity`, `sold_date`, `unit_price`, `book_id`, `client_id`)
-VALUES (1, '2026-09-07', 19.95, 3, 1);
-INSERT INTO `bookstore`.`sale` (`quantity`, `sold_date`, `unit_price`, `book_id`, `client_id`)
-VALUES (1, '2026-09-08', 18.95, 6, 2);
-INSERT INTO `bookstore`.`sale` (`quantity`, `sold_date`, `unit_price`, `book_id`, `client_id`)
-VALUES (3, '2026-09-11', 27.95, 5, 2);
-INSERT INTO `bookstore`.`sale` (`quantity`, `sold_date`, `unit_price`, `book_id`, `client_id`)
-VALUES (1, '2026-09-14', 24.95, 1, 3);
-INSERT INTO `bookstore`.`sale` (`quantity`, `sold_date`, `unit_price`, `book_id`, `client_id`)
-VALUES (2, '2026-09-16', 22.50, 4, 3);
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
