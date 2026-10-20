@@ -8,7 +8,7 @@ abstract class CRUD extends \PDO {
 
     // Ouvre la connexion à la base bookstore (les enfants ne peuvent pas la modifier: final).
     final public function __construct() {
-        parent::__construct('mysql:host=localhost; dbname=bookstore; port=3306; charset=utf8', 'root', 'MOT_DE_PASSE');
+        parent::__construct('mysql:host=localhost; dbname=bookstore; port=3306; charset=utf8', 'root', 'MOT_DE_PASSSE');
     }
 
     // Retourne toutes les lignes de la table (triées par la clé primaire si $field est vide).

@@ -24,6 +24,8 @@ Migration de la librairie du TP1 vers l'architecture MVC, en PHP orienté objet 
 
 CRUD sur la table `book` : liste, détail, ajout, modification et suppression, avec validation des formulaires.
 
+Une page d'accueil statique et une page de statistiques (nombre de livres, d'auteurs, de clients et de ventes).
+
 ## Installation
 
 1. Importer `sql/bookstore.sql` dans MySQL.

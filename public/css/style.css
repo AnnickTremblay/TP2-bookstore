@@ -260,21 +260,6 @@ footer p {
     margin-bottom: 0.3rem;
 }
 
-/***** BOUTON SUPPRIMER *****/
-.btn-danger{
-    background-color: #d63a3a;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.btn-danger:hover {
-    background-color: #ad3434;
-}
-
 /***** ERREURS *****/
 .text-danger{
     color: #d63a3a;
