@@ -10,6 +10,9 @@ use App\Controllers\BookController;
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 
+// Page des statistiques.
+Route::get('/stats', 'HomeController@stats');
+
 // Liste des livres.
 Route::get('/books', 'BookController@index');
 

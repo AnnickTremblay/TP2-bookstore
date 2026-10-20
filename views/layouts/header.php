@@ -17,6 +17,7 @@
             <ul>
                 <li><a href="{{ base }}/">Home</a></li>
                 <li><a href="{{ base }}/books">Books</a></li>
+                <li><a href="{{ base }}/stats">Statistics</a></li>
             </ul>
         </nav>
     </header>
